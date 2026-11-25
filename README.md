@@ -1,4 +1,4 @@
-# skysay-ai
+# Skysay
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,151 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-skysay-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://skysay.ai/
+Skysay provides telephony services for AI agents, offering phone numbers, call handling, SMS, and real‑time audio streams. Developers can integrate via a REST API, MCP tools, or SDKs to give AI assistants a phone line, automate outbound campaigns, appointment reminders, payment reminders, debt collection, and industry‑specific solutions. The platform supports self‑hosted gateways, GDPR compliance, and transparent billing, enabling AI‑driven customer interactions at scale.
+
+**Areas:** Telephony · AI · Voice · SaaS · Communications
+
+## Skysay on APIs.io
+
+Everything profiled for Skysay is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/skysay-ai/](https://apis.io/providers/skysay-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (13)
+
+- [Skysay Account API](https://apis.io/apis/skysay-ai/skysay-ai-account-api/) — Workspace, API keys, capabilities and audit.
+- [Skysay Agents API](https://apis.io/apis/skysay-ai/skysay-ai-agents-api/) — Voice agents, their workflows, voice stack, simulations and webhook endpoints.
+- [Skysay Billing API](https://apis.io/apis/skysay-ai/skysay-ai-billing-api/) — Wallet, usage, invoices and pricing.
+- [Skysay Calls API](https://apis.io/apis/skysay-ai/skysay-ai-calls-api/) — Placing, reading and controlling calls, with their recordings and transcripts.
+- [Skysay Campaigns API](https://apis.io/apis/skysay-ai/skysay-ai-campaigns-api/) — Outbound campaigns, contact lists and the do-not-call register.
+- [Skysay Integrations API](https://apis.io/apis/skysay-ai/skysay-ai-integrations-api/) — Integrations, calendars and hosted AI provider credentials.
+- [Skysay Knowledge API](https://apis.io/apis/skysay-ai/skysay-ai-knowledge-api/) — Knowledge bases and their documents.
+- [Skysay MCP API](https://apis.io/apis/skysay-ai/skysay-ai-mcp-api/) — The hosted Model Context Protocol endpoints.
+- [Skysay Messages API](https://apis.io/apis/skysay-ai/skysay-ai-messages-api/) — SMS messages and conversations.
+- [Skysay Numbers API](https://apis.io/apis/skysay-ai/skysay-ai-numbers-api/) — Phone numbers: search, request, import and their number rules.
+- [Skysay Self Hosting API](https://apis.io/apis/skysay-ai/skysay-ai-self-hosting-api/) — Self-hosted gateways and customer phone servers.
+- [Skysay Text to speech API](https://apis.io/apis/skysay-ai/skysay-ai-text-to-speech-api/) — Paid standalone synthesis of text into audio.
+- [Skysay Verification API](https://apis.io/apis/skysay-ai/skysay-ai-verification-api/) — End-user identity verification and number registration requirements.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Skysay Ai Webhooks](https://apis.io/asyncapis/skysay-ai/skysay-ai-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Skysay Agentic Access](https://apis.io/agentic-access/skysay-ai/skysay-ai-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Agent](https://apis.io/schemas/skysay-ai/skysay-ai-agent/)
+- [AgentUpdate](https://apis.io/schemas/skysay-ai/skysay-ai-agent-update/)
+- [AgentVoiceStackUpdate](https://apis.io/schemas/skysay-ai/skysay-ai-agent-voice-stack-update/)
+- [OutboundCall](https://apis.io/schemas/skysay-ai/skysay-ai-outbound-call/)
+- [SipConnection](https://apis.io/schemas/skysay-ai/skysay-ai-sip-connection/)
+- [VoicePreviewRequest](https://apis.io/schemas/skysay-ai/skysay-ai-voice-preview-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Skysay Ai Context](https://apis.io/jsonld/skysay-ai/skysay-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Skysay API Rules](https://apis.io/rules/skysay-ai/skysay-ai-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Skysay Authentication](https://apis.io/security/skysay-ai/skysay-ai-authentication/)
+- [Skysay Domain Security](https://apis.io/security/skysay-ai/skysay-ai-domain-security/)
+- [Skysay Vulnerability Disclosure](https://apis.io/security/skysay-ai/skysay-ai-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Skysay Plans Pricing](https://apis.io/plans/skysay-ai/skysay-ai-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://skysay.ai/)
+- [Documentation](https://skysay.ai/docs)
+- [Getting started](https://skysay.ai/solutions/customer-onboarding)
+- [API reference](https://skysay.ai/docs/rest-endpoints)
+- [Pricing](https://skysay.ai/pricing)
+- [Changelog](https://skysay.ai/docs/changelog)
+- [Blog](https://skysay.ai/blog)
+- [Security](https://skysay.ai/privacy#security)
+- [Terms of service](https://skysay.ai/terms)
+- [Privacy policy](https://skysay.ai/privacy)
+- [GitHub](https://github.com/skysay-ai)
+
+## API Evangelist rating
+
+**Kin Score 59.4** — strong · rubric 0.28.0 · scored 2026-11-25
+
+| Facet | Score |
+|---|---|
+| Discoverability | 76.8 |
+| Contract quality | 64.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 35.7 |
+| Developer ergonomics | 56.4 |
+| Access clarity | 40.9 |
+
+**Agent readiness 60.4** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/skysay-ai/](https://apis.io/providers/skysay-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Skysay: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/skysay-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
